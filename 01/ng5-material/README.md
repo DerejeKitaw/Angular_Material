@@ -1,9 +1,16 @@
 # Ng5Material
-Generate ng5-material project
+
+1. Generate ng5-material project
 ```
 ng new ng5-material -sg -routing
 ```
-install material
+
+2. install material
 ```
 npm install @angular/material @angular/cdk --save
+```
+
+3. Install angular animation. Because somae angular material depend on it.
+```
+npm install @angular/animations
 ```
