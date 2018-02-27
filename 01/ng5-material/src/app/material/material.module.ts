@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule} from '@angular/material';
 import { NavComponent } from './nav/nav.component';
+import { FileUploadComponent } from './file-upload/file-upload.component';
 
 @NgModule({
   imports: [
@@ -9,8 +10,8 @@ import { NavComponent } from './nav/nav.component';
     MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule
   ],
   exports: [
-    NavComponent, MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule
+    FileUploadComponent, NavComponent, MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule
   ],
-  declarations: [NavComponent]
+  declarations: [NavComponent, FileUploadComponent]
 })
 export class MaterialModule { }

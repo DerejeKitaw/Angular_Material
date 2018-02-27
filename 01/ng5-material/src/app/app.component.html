@@ -3,7 +3,6 @@
 
 <router-outlet></router-outlet>
 
-
 <mat-card>
     <mat-form-field>
         <input matInput [(ngModel)]="answer" placeholder="Who has the best Person?">
@@ -19,3 +18,5 @@
 <mat-card *ngIf="answerDisplay">
     <h1>{{ answerDisplay }}, you're damn right.</h1>
 </mat-card>
+<br>
+<app-file-upload></app-file-upload>
