@@ -44,3 +44,34 @@ import 'hammerjs';
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
 
+10. Add Button
+
+    import [MatButtonModule](https://material.angular.io/components/button/api)
+    ```
+    import {MatButtonModule} from '@angular/material';
+    ```
+    HTML
+    ```
+    <button mat-button>My button</button>
+    ```
+
+11. Add toolbar
+
+    import [MatToolbarModule](https://material.angular.io/components/toolbar/api)
+    ```
+    import {MatToolbarModule} from '@angular/material/toolbar';
+    ```
+    HTML
+    ```
+        <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <span>MyMaterial</span>
+
+            <span class="example-spacer"></span>
+            
+            <button mat-button>About</button>
+            <button mat-button>Services</button>
+            <button mat-button>Contact</button>
+        </mat-toolbar-row>
+        </mat-toolbar>
+    ```
