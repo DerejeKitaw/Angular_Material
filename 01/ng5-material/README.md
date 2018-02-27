@@ -33,3 +33,14 @@ ng g module material
 ```
 npm install hammerjs --save
 ```
+
+8. import hammerjs in the main.ts - 
+```
+import 'hammerjs';
+```
+
+9. Import icons from google api
+```
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
