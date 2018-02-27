@@ -75,3 +75,26 @@ import 'hammerjs';
         </mat-toolbar-row>
         </mat-toolbar>
     ```
+
+12. Add input field
+Import [MatInputModule](https://material.angular.io/components/input/api)
+```
+import {MatInputModule} from '@angular/material/input';
+```
+
+12 Add progress spinner and card modules
+
+```
+MatProgressSpinnerModule , MatCardModule
+```
+
+13. Import form module for the form works
+```
+
+```
+
+15. Deploy
+```
+ng build --prod --base-href "https://dkitaw.github.io/ng5-material/"
+ngh [OPTIONS]
+```

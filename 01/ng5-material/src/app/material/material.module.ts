@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MatButtonModule, MatToolbarModule} from '@angular/material';
+import {MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule} from '@angular/material';
 import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    MatButtonModule, MatToolbarModule
+    MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule
   ],
   exports: [
-    NavComponent, MatButtonModule, MatToolbarModule
+    NavComponent, MatButtonModule, MatToolbarModule, MatInputModule, MatProgressSpinnerModule , MatCardModule
   ],
   declarations: [NavComponent]
 })
