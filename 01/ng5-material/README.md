@@ -95,6 +95,6 @@ MatProgressSpinnerModule , MatCardModule
 
 15. Deploy
 ```
-ng build --prod --base-href "https://dkitaw.github.io/ng5-material/"
+ng build --prod --base-href "https://derejekitaw.github.io/Angular_Material/"
 ngh [OPTIONS]
 ```
