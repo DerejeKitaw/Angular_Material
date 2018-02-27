@@ -23,3 +23,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 ```
 ng g module material
 ```
+
+6. Import material theme 
+```
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+```
+
+7. Install hammerjs - some of the feature in the theme require hamerjs
+```
+npm install hammerjs --save
+```
