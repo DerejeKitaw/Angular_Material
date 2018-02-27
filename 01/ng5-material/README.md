@@ -101,10 +101,30 @@ ngh [OPTIONS]
 
 15. Create firebase function
 
+15. 1 Add new project
 ```
 Add new project
 npm install -g firebase-tools
 firebase login
 firebase init
+    select: Functions
+    select: Javascript language
+```
+Install google cloude storage and child-process-promise
+```
+npm install --save @google-cloud/storage
+npm install --save child-process-promise
+```
+write a function to upload a file
+```
+exports.uploadFile = functions.https.onRequest((request, response) => {
+ response.status(200).json({
+     message: 'It worked!'
+ }) ;
+});
+```
+
+```
 firebase deploy
 ```
+Function URL (uploadFile): https://us-central1-ng5-materi.cloudfunctions.net/uploadFile
