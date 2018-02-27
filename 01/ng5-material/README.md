@@ -14,7 +14,12 @@ npm install @angular/material @angular/cdk --save
 ```
 npm install @angular/animations
 ```
-import BrowserAnimationModule
+4. import BrowserAnimationModule
+```
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 ```
 
+5. Create material module
+```
+ng g module material
 ```
