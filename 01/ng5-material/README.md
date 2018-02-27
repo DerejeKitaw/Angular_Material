@@ -98,3 +98,13 @@ MatProgressSpinnerModule , MatCardModule
 ng build --prod --base-href "https://derejekitaw.github.io/Angular_Material/"
 ngh [OPTIONS]
 ```
+
+15. Create firebase function
+
+```
+Add new project
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+```

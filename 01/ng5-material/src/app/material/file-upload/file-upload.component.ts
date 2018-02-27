@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-file-upload',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FileUploadComponent implements OnInit {
 selectedFile = null;
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
   }
@@ -15,4 +17,7 @@ selectedFile = null;
     // console.log(event);
     this.selectedFile = event.target.file[0];
   }
+  // onUpload(){
+  //   this.http.post('')
+  // }
 }
